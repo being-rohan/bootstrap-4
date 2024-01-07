@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-dark: black;
+}
+
+.Firstnav ul  li {
+    width: 200px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.Firstnav {
+    background-color: var(--color-dark) !important;
+    /* margin: 0; */
+    padding: 0.3rem !important;
+}
+
+.Firstnav .navbar-nav {
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Firstnav .navbar-nav .active>.nav-link,
+.Firstnav .navbar-nav .nav-link.active,
+.Firstnav .navbar-nav .nav-link.show,
+.Firstnav .navbar-nav .show>.nav-link {
+    color: #fff;
+    background-color: orange;
+    /* margin-left: 5px;  */
+
+}
+
+.Firstnav .navbar-nav .nav-link:focus,
+.Firstnav .navbar-nav .nav-link:hover {
+    /* margin: 5px; */
+    color: rgba(255, 255, 255, .75);
+    background-color: orange;
+    width: 100%!important;
+}
+
+.Firstnav li.nav-item {
+    margin-left: 2px;
+}
+
+.Firstnav.nav-link {
+    height: 60px;
+    line-height: 60px;
+    /* padding: 0 1rem; */
+}
+
+.Firstnav.navbar-dark .navbar-brand {
+    color: #fff;
+    padding: 0 1rem;
+    /* width: 100%; */
+}
+
+.Firstnav .navbar-toggler {
+    margin: 2px;
+    border-color: orange;
+    position: relative;
+    right: 5px;
+
+}
+
+ i i.fa-solid.fa-bars {
+    color: white;
+}
+
+.Firstnav img {
+    /* vertical-align: middle; */
+    /* border-style: none; */
+    margin-left: -77px;
+    height: auto;
+}
+
+
+
